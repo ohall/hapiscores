@@ -11,5 +11,8 @@
   "dependencies": {
     "hapi": "~7.0.0",
     "wreck": "~5.0.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
   }
 }
