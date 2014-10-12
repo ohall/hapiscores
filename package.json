@@ -1,0 +1,15 @@
+{
+  "name": "scores",
+  "version": "0.0.1",
+  "description": "Grabbing NFL scores via Hapi app and serving to a Thorax client.",
+  "main": "scores.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oakley Hall <ohall@grtmail.com> (http://www.grassroots-tech.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "~7.0.0",
+    "wreck": "~5.0.1"
+  }
+}
