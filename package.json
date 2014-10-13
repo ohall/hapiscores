@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "hapi": "~7.0.0",
-    "wreck": "~5.0.1"
+    "wreck": "~5.0.1",
+    "underscore": "~1.7.0"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

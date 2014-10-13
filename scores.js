@@ -52,4 +52,18 @@ server.route({
     }
 });
 
+server.route({
+    method: 'GET',
+    path: '/games',
+    handler: function () {
+        var games = [];
+
+        _.each(gameCodes, function (code) {
+            server.methods.getScores(code, function (teams) {
+                games.push(teams.away_team.city + ' v. ' + teams.away_team.city)
+            })
+        })
+    }
+});
+
 server.start();
